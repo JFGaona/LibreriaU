@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.libreria</groupId>
-	<artifactId>Libreria</artifactId>
+	<artifactId>libreria</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Libreria</name>
 	<description>Libreria Digital</description>
