@@ -1,6 +1,6 @@
 # 📚 Librería Online
 
-¡Bienvenido a la **Librería Online**! Este es un proyecto de backend desarrollado con **Java 22** y **Spring Boot**, diseñado para gestionar una librería digital. La aplicación sigue la arquitectura MVC y se conecta a una base de datos MySQL.
+¡Bienvenido a la **Librería Online**! Este es un proyecto de backend y frontend para Ingeniería de Sistemas, desarrollado con **Java 22** y **Spring Boot**, diseñado para gestionar una librería digital. La aplicación sigue la arquitectura MVC y se conecta a una base de datos MySQL.
 
 ## 🚀 Características
 
@@ -10,22 +10,32 @@
 - **Reseñas y Listas de Deseos**: Los usuarios pueden dejar reseñas y crear listas de deseos.
 - **Cupones y Descuentos**: Aplicación de cupones de descuento en las compras.
 
-## 🗂️ Estructura del Proyecto
 
-```plaintext
-Librería
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com
-│   │   │       └── libreria
-│   │   │           ├── controller
-│   │   │           ├── model
-│   │   │           ├── repository
-│   │   │           ├── service
-│   │   │           └── LibreriaApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── static
-│   └── test
-└── pom.xml
+📂 Paquete controller
+Este paquete contiene los controladores que manejan las peticiones HTTP para las diferentes entidades, exponiendo las APIs REST.
+
+UserController.java
+BookController.java
+TransactionController.java
+(y más...)
+📂 Paquete model
+Contiene las clases de entidad que representan las tablas de la base de datos.
+
+User.java
+Book.java
+Transaction.java
+(y más...)
+📂 Paquete repository
+Incluye las interfaces que extienden JpaRepository para proporcionar métodos CRUD sobre las entidades.
+
+UserRepository.java
+BookRepository.java
+TransactionRepository.java
+(y más...)
+📂 Paquete service
+Contiene la lógica de negocio de la aplicación, que se encuentra entre los controladores y los repositorios.
+
+UserService.java
+BookService.java
+TransactionService.java
+(y más...)
