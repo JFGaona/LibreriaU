@@ -13,29 +13,30 @@
 
 📂 Paquete controller
 Este paquete contiene los controladores que manejan las peticiones HTTP para las diferentes entidades, exponiendo las APIs REST.
-
 UserController.java
 BookController.java
 TransactionController.java
 (y más...)
+
 📂 Paquete model
 Contiene las clases de entidad que representan las tablas de la base de datos.
-
 User.java
 Book.java
 Transaction.java
 (y más...)
+
 📂 Paquete repository
 Incluye las interfaces que extienden JpaRepository para proporcionar métodos CRUD sobre las entidades.
-
 UserRepository.java
 BookRepository.java
 TransactionRepository.java
 (y más...)
+
 📂 Paquete service
 Contiene la lógica de negocio de la aplicación, que se encuentra entre los controladores y los repositorios.
-
 UserService.java
 BookService.java
 TransactionService.java
 (y más...)
+
+
