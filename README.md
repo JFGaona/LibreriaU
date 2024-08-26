@@ -25,11 +25,17 @@ Contiene la lógica de negocio de la aplicación, que se encuentra entre los con
 
 📚 Endpoints Principales
 GET	/api/users	Obtiene todos los usuarios
+
 POST	/api/users	Crea un nuevo usuario
+
 GET	/api/books	Obtiene todos los libros
+
 POST	/api/books	Añade un nuevo libro
+
 GET	/api/transactions	Obtiene todas las transacciones
+
 POST	/api/transactions	Crea una nueva transacción
+
 
 🛠️ Tecnologías Utilizadas
 Java 22
